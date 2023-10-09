@@ -1,0 +1,280 @@
+ERROR - 2023-09-26 06:20:28 --> Table 'inventaris.pegawai' doesn't exist
+CRITICAL - 2023-09-26 06:20:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(43): App\Models\M_model->tampilPegawaian('pegawai', 'jabatan', 'user', 'pegawai.id_jaba...', 'pegawai.id_user...', 'tanggal_pegawai')
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-26 06:38:57 --> Too few arguments to function App\Models\M_model::ultraRows(), 4 passed in C:\xampp\htdocs\inventaris\app\Controllers\Home.php on line 144 and exactly 6 expected
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(144): App\Models\M_model->ultraRows('petugas', 'user', 'petugas.id_user...', Array)
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pegawaian('4')
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-26 06:39:04 --> Unknown column 'petugas.id_user_pegawai' in 'where clause'
+CRITICAL - 2023-09-26 06:39:04 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(144): App\Models\M_model->edit_petugas('petugas', 'user', 'petugas.id_user...', Array)
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pegawaian('4')
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-26 07:00:34 --> Unknown column 'status_agenda' in 'field list'
+CRITICAL - 2023-09-26 07:07:46 --> Too few arguments to function App\Models\M_model::edit(), 2 passed in C:\xampp\htdocs\inventaris\app\Controllers\Home.php on line 233 and exactly 3 expected
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(233): App\Models\M_model->edit('jenis', Array)
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_jenis('1')
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-26 07:20:03 --> Too few arguments to function App\Controllers\Home::tersedia(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->tersedia()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 07:21:34 --> Too few arguments to function App\Controllers\Home::tersedia(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->tersedia()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 07:21:37 --> Too few arguments to function App\Controllers\Home::tersedia(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->tersedia()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 07:21:40 --> Too few arguments to function App\Controllers\Home::tersedia(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->tersedia()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 07:43:46 --> Cannot redeclare App\Controllers\Home::jenis()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 07:43:47 --> Cannot redeclare App\Controllers\Home::jenis()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 08:42:51 --> Call to undefined function fetchDataFromDatabase()
+#0 C:\xampp\htdocs\inventaris\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('inventaris/tamb...', Array, true)
+#3 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(508): view('inventaris/tamb...')
+#4 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->tambah_inventaris()
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-26 09:00:36 --> Column 'id_ruang' cannot be null
+ERROR - 2023-09-26 10:09:13 --> Unknown column 'id_user_pegawai' in 'where clause'
+CRITICAL - 2023-09-26 10:09:13 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(86): App\Models\M_model->edit_pp('petugas', Array)
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->ganti_profile()
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-26 10:10:26 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 146, Array)
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->aksi_ganti_profile()
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-26 10:49:06 --> Unknown column 'jumlah_pinjam' in 'field list'
+CRITICAL - 2023-09-26 10:55:24 --> Too few arguments to function App\Controllers\Home::edit_pengembalian(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pengembalian()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 10:58:42 --> Too few arguments to function App\Controllers\Home::edit_pengembalian(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pengembalian()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 10:58:43 --> Too few arguments to function App\Controllers\Home::edit_pengembalian(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pengembalian()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 10:59:06 --> Too few arguments to function App\Controllers\Home::edit_pengembalian(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pengembalian()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 10:59:07 --> Too few arguments to function App\Controllers\Home::edit_pengembalian(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pengembalian()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 10:59:58 --> Too few arguments to function App\Controllers\Home::edit_pengembalian(), 0 passed in C:\xampp\htdocs\inventaris\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_pengembalian()
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-26 19:27:08 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\inventaris\app\Views\peminjaman\edit_peminjaman.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\inventaris\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/edit...', Array, true)
+#4 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(803): view('peminjaman/edit...')
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->edit_peminjaman('2')
+#6 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-09-26 19:47:03 --> Unknown column 'status' in 'field list'
+ERROR - 2023-09-26 19:47:51 --> Unknown column 'status' in 'field list'
+ERROR - 2023-09-26 19:48:33 --> Unknown column 'status' in 'field list'
+CRITICAL - 2023-09-26 20:19:44 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\inventaris\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_pen...')
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_pen...')
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-26 20:20:52 --> Column 'jumlah_pinjam' cannot be null
+ERROR - 2023-09-26 20:22:17 --> Column 'jumlah_pinjam' cannot be null
+ERROR - 2023-09-26 20:23:25 --> Column 'jumlah_pinjam' cannot be null
+ERROR - 2023-09-26 20:24:20 --> Column 'jumlah_pinjam' cannot be null
+CRITICAL - 2023-09-26 21:03:55 --> Cannot redeclare App\Controllers\Home::laporan_inventaris()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 21:07:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\inventaris\app\Views\laporan\c_peminjaman.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\inventaris\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#4 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(975): view('laporan/c_pemin...', Array)
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->laporan_peminjaman()
+#6 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-26 21:11:09 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\inventaris\app\Views\laporan\c_peminjaman.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\inventaris\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#4 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(975): view('laporan/c_pemin...', Array)
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->laporan_peminjaman()
+#6 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-26 21:11:10 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\inventaris\app\Views\laporan\c_peminjaman.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\inventaris\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#4 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(975): view('laporan/c_pemin...', Array)
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->laporan_peminjaman()
+#6 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-26 21:11:45 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#2 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(975): view('laporan/c_pemin...', Array)
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->laporan_peminjaman()
+#4 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-26 21:13:04 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\inventaris\app\Views\laporan\c_peminjaman.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\inventaris\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#4 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(975): view('laporan/c_pemin...', Array)
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->laporan_peminjaman()
+#6 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-26 21:14:42 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#2 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(975): view('laporan/c_pemin...', Array)
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->laporan_peminjaman()
+#4 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-26 21:15:06 --> Unknown column 'peminjaman.tanggal_laporan_inventaris' in 'where clause'
+CRITICAL - 2023-09-26 21:15:06 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(988): App\Models\M_model->filter_peminjaman('peminjaman', '2023-09-26', '2023-09-28')
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->cari_peminjaman()
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-26 21:15:27 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#2 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(990): view('laporan/c_pemin...', Array)
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->cari_peminjaman()
+#4 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-26 21:15:34 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_pemin...', Array, true)
+#2 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(990): view('laporan/c_pemin...', Array)
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->cari_peminjaman()
+#4 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-26 21:20:08 --> Cannot redeclare App\Controllers\Home::excel_peminjaman()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-26 21:22:50 --> Unknown column 'pengembalian.pembuat_peminjaman' in 'on clause'
+CRITICAL - 2023-09-26 21:22:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\inventaris\app\Controllers\Home.php(1088): App\Models\M_model->filter_pengembalian('pengembalian', '2023-09-01', '2023-09-06')
+#1 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(832): App\Controllers\Home->cari_pengembalian()
+#2 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
